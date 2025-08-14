@@ -25,7 +25,7 @@ export default function Layout({ children }) {
                 <div className=' bg-DeepNightBlack text-LightGray w-full h-10 flex items-center justify-between px-2 lg:hidden relative'>
                     <div className='flex items-center gap-x-2' onClick={() => setIntro(!intro)}>
                         <span className='border-2 text-Blue border-Blue p-1 text-sm rounded-lg'>
-                            <SlOptionsVertical />
+                            <FaBars />
                         </span>
 
                     </div>
