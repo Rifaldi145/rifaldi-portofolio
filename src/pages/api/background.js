@@ -3,23 +3,23 @@ const background = [
         eduCards: [
             {
                 id: 0,
-                title: 'UET Peshawar',
-                degree: 'BS, Computer System Engineering',
-                detail: "Bachelor's Degree in Computer System Engineering from UET Peshawar.",
-                year: '2018-2022'
+                title: 'University Bina Sarana Informatika',
+                degree: 'S1, Sistem Information',
+                detail: "",
+                year: '2023-2024'
             },
             {
                 id: 1,
-                title: 'Peshawar Model Degree College',
-                degree: 'HSSC, Pre Engineering',
-                detail: "Completed FSC part 1 and part 2 in Pre-Engineering from Peshawar Model Degree College.",
+                title: 'University Bina Sarana Informatika',
+                degree: 'D3, Sistem Information',
+                detail: "",
                 year: '2015-2017'
             },
             {
                 id: 2,
-                title: 'Falcon Academy',
-                degree: 'SSC, Science Subjects',
-                detail: "Completed SSC part 1 and part 2 in Science subjects from Falcon Academy Seni Gumbat Kohat",
+                title: 'SMK Adi Sanggoro',
+                degree: 'Software engineering',
+                detail: "",
                 year: '2013-2015'
             },
         ]
@@ -28,30 +28,58 @@ const background = [
         expCards: [
             {
                 id: 1,
-                title: 'JMM Technologies',
+                title: 'PT Sinarmas Multifinance',
                 role: 'Frontend Developer',
-                url: 'https://jmm.ltd/',
-                desc: 'As a frontend developer, I use React, Next & JavaScript to build user interfaces for web applications.',
-                year: '02/2023 - Present',
-                location: 'Peshawar, Pakistan'
+                url: '',
+                desc: '',
+                year: 'April 2025 - Present',
+
             },
             {
                 id: 2,
-                title: 'HauzaTech',
-                role: 'Internee',
-                url: 'no website',
-                desc: 'As an Internee, I learned how to use React & JavaScript to build interactive websites.',
-                year: '02/2023 - Present',
-                location: 'Peshawar, Pakistan'
+                title: 'PT INAMART SUKSES JAYA',
+                role: 'Software Enginering',
+                url: '',
+                desc: 'Developed various applications and services, including the Better Muslim app (Next.js & Flutter) with live video conferencing, a system API for the BPN project (Laravel & ExpressJS), the DAMAI application for actuarial calculations (Next.js & Python), and a blockchain application for generating NFT certificates (React.js, Solidity.js, Java). Also responsible for setting up development servers on Amazon and Alibaba Cloud.',
+                year: 'Feb 2022 - Feb 2025',
+
             },
             {
                 id: 3,
-                title: 'Encoder Bytes',
-                role: 'PHP Developer',
-                url: 'https://www.encoderbytes.com/',
-                desc: "I work there as a PHP developer, there I learned how to do CRUD'S operations in PHP, also I worked on Firebase",
-                year: '09/2020 - 02/2021',
-                location: 'Peshawar, Pakistan'
+                title: 'Kementerian PPN/Bappenas',
+                role: 'Programmer IT',
+                url: 'https://pusbindiklatren.bappenas.go.id/',
+                desc: "Developed and customized the Open Journal System (OJS) by creating reusable code bases, custom plugins (PHP & JavaScript), and managing server and security requirements. Applied clean code principles, strong typing, and OOP methods. Built a Formation Calculation system (Laravel) and developed a landing page for the Pusbindiklatren Bappenas website using Laravel and Vue.js.",
+                year: 'Apr 2021 - Okt 2024',
+
+            },
+            {
+                id: 4,
+                title: 'PT.TIMA AMANAH PRIMA WISATA',
+                role: 'IT Support & Programmer',
+                url: '',
+                desc: "Developed RESTful APIs using PHP (Laravel & CodeIgniter), built a travel website, and configured servers via Ubuntu SSH. Migrated travel applications from PHP Native to CodeIgniter and tested payment integrations with third-party services",
+                year: 'Des 2019 - Jan 2021',
+
+            },
+
+            {
+                id: 5,
+                title: 'Yayasan Tirta Amarta Paripurna',
+                role: 'Web Programmer',
+                url: '',
+                desc: "Improved marketplace application UI/UX, fixed bugs, and integrated Postage King API for shipping options.",
+                year: 'Jul 2019 - Nov 2019',
+
+            },
+            {
+                id: 6,
+                title: 'Dgeo.Id',
+                role: 'Junior Programmer',
+                url: '',
+                desc: "Developed various web and mobile applications including e-commerce, goods and services monitoring with Indonesian maps, SME and village farmer marketplace, WargaNet app, asset management system, and company profile websites using CodeIgniter, Laravel, JavaScript, and REST API, while managing server and security configurations.",
+                year: 'Apr 2018 - Jun 2019',
+
             },
 
         ]

@@ -5,20 +5,19 @@ const Exp_Card = ({ data }) => {
     return (
         <CardLayout>
             <div className="card_stylings transition px-8 py-10 ">
-                <div className="flex-initial text-[17px] text-Snow font-medium">{data.title}</div>
-                <div className="text-sm text-LightGray font-normal italic mt-1 ">
+                <div className="flex justify-between">
+                    <div className="flex-initial text-[17px] text-Snow font-medium">{data.title}</div>
+                    <div className="flex justify-items-center justify-center text-White bg-Blue ml-2 w-32 lg:w-30 h-10 text-xs rounded-full py-3 font-normal  text-center">
+                        {" "}
+                        {data.year}{" "}
+                    </div>
+                </div>
+                <div className="text-sm text-LightGray font-normal mt-1 ">
                     {data.role}
                 </div>
-                <div className="text-LightGray text-xs opacity-50 font-normal italic">
-                    <a href={`${data.url}`} target="_blank" rel="noreferrer">
-                        {data.url}
-                    </a>
-                </div>
+
                 <div className="text-LightGray text-sm font-normal mt-4 text-justify">
                     {data.desc}
-                </div>
-                <div className="flex justify-between text-LightGray bg-DeepNightBlack w-full h-auto text-xs rounded-full py-3 px-6 mt-4 font-normal opacity-50">
-                    <div>{data.year}</div> <div>{data.location}</div>
                 </div>
             </div>
         </CardLayout>

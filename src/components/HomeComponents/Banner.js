@@ -12,7 +12,7 @@ const Banner = () => {
                             <div className="">
                                 <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Hello,Welcome to my profile</h1>
                             </div>
-                            <div className="">
+                            {/* <div className="">
                                 <div className=" py-4 font-cascadia-normal text-Snow pb-4 text-xs h-20 lg:h-auto">
 
                                     <span className="text-Snow sm:text-xl xl:text-2xl font-bold"> I am a  <span className="inline-block">
@@ -29,7 +29,7 @@ const Banner = () => {
                                         />
                                     </span></span>
                                 </div>
-                            </div>
+                            </div> */}
 
                         </div>
                         <div className="w-48 h-52 relative hidden md:block">

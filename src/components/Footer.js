@@ -12,14 +12,9 @@ const Footer = () => {
                     <span>2025 All Rights Reserved.</span>
                 </div>
                 <div className="flex items-center">
-                    <span className='font-bold'>Rifaldi Judri</span>
+                    <span className='font-bold'>Muhammad Rifaldi Judri</span>
                 </div>
-                <div className="hidden md:flex items-center">
-                    <div className="mr-1 text-base">
-                        <MdMail />
-                    </div>
-                    <div>muhamadrifaldi145@gmail.com</div>
-                </div>
+
             </div>
         </div>
     )

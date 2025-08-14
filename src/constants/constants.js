@@ -10,7 +10,7 @@ export const Bahasa = [
   },
   {
     title: 'English',
-    level: '58%',
+    level: '50%',
   },
 ];
 

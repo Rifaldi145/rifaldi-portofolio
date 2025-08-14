@@ -7,11 +7,11 @@ const expertise = [
     {
         id: 1,
         title: 'Backend & API Development',
-        desc: 'Proficient with PHP (Laravel, CodeIgniter), ExpressJS, and Python for backend systems, creating reusable codebases and complex business logic implementations.',
+        desc: 'Proficient with PHP (Laravel, CodeIgniter), ExpressJS, NextJS and Python for backend systems, creating reusable codebases and complex business logic implementations.',
     },
     {
         id: 2,
-        title: 'Frontend & UI/UX',
+        title: 'Frontend Web Development',
         desc: 'Experienced in frontend development with ReactJS, NextJS, VueJS, Angular, and Flutter, as well as UI/UX design principles and implementing responsive, user-friendly interfaces.',
     },
     {

@@ -7,7 +7,7 @@ const Edu_Card = ({ data }) => {
             <div className="card_stylings transition px-8 py-10">
                 <div className="flex justify-between">
                     <div className="flex-initial text-[17px] text-Snow font-medium">{data.title}</div>
-                    <div className="flex justify-items-center justify-center text-LightGray bg-DeepNightBlack ml-2 w-32 lg:w-28 h-10 text-xs rounded-full py-3 font-normal opacity-50 text-center">
+                    <div className="flex justify-items-center justify-center text-White bg-Blue ml-2 w-32 lg:w-28 h-10 text-xs rounded-full py-3 font-normal  text-center">
                         {" "}
                         {data.year}{" "}
                     </div>

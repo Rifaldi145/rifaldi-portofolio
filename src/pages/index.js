@@ -8,8 +8,8 @@ const home = () => {
     <div className="Home-Page -z-10">
       <Banner />
       <MyExpertise />
-      <Recommendations />
-      <ClientReviews />
+      {/* <Recommendations />
+      <ClientReviews /> */}
       <Footer />
 
     </div>

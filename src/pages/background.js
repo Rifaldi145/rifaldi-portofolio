@@ -17,37 +17,41 @@ function Background() {
 
     return (
         <BannerLayout>
-            <div className="grid md:grid-cols-2 md:divide-x-4 md:divide-Green px-4 pb-2 pt-10">
-                <div className="flex flex-col gap-y-4 order-2 md:order-1  md:mr-12">
+            <div className="grid md:grid-cols-2 px-4 pb-2 pt-10 relative">
+                {/* garis putuh" */}
+                <div className="hidden md:block absolute left-1/2 top-0 bottom-0 border-l-4 border-dashed border-gray-400"></div>
+
+                {/* Education */}
+                <div className="flex flex-col gap-y-4 order-2 md:order-1 md:mr-12">
                     <div className="mt-10 md:mt-0 text-xl text-Snow font-semibold">Education</div>
                     {isLoading ?
-                        [1, 2, 3].map(() => (
-                            <ParagraphSkeleton className={"p-8 h-full w-full relative"} />
+                        [1, 2, 3].map((_, idx) => (
+                            <ParagraphSkeleton key={idx} className={"p-8 h-full w-full relative"} />
                         ))
                         :
-                        data && data[0]?.eduCards?.map((data, key) => (
-                            <Edu_Card key={key} data={data} />
+                        data && data[0]?.eduCards?.map((dataItem, key) => (
+                            <Edu_Card key={key} data={dataItem} />
                         ))
                     }
-
                 </div>
+
+                {/* Work Experience */}
                 <div className="order-1 md:order-2">
                     <div className="flex flex-col gap-y-4 md:ml-12">
-                        <div className=" md:pt-0 pt-4 text-xl text-Snow font-semibold">Experience</div>
-
+                        <div className="md:pt-0 pt-4 text-xl text-Snow font-semibold">Work experience</div>
                         {isLoading ?
-                            [1, 2, 3].map(() => (
-                                <ParagraphSkeleton className={"p-8 h-full w-full relative"} />
+                            [1, 2, 3].map((_, idx) => (
+                                <ParagraphSkeleton key={idx} className={"p-8 h-full w-full relative"} />
                             ))
                             :
-                            data && data[1]?.expCards?.map((data, key) => (
-                                <Exp_Card key={key} data={data} />
+                            data && data[1]?.expCards?.map((dataItem, key) => (
+                                <Exp_Card key={key} data={dataItem} />
                             ))
                         }
-
                     </div>
                 </div>
             </div>
+
             <Footer />
         </BannerLayout>
     );
